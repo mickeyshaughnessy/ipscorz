@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+echo "this"
+
+# install the ipscore application 
+  # get the score server
+  # `curl <the_main_api_ip>:8571/download/ > ipscores.tgz
+  # tar -xzvf ipscores.tgz
+  # cd ipscores
+  # bash run_score_server.sh # in here, make it into a long running service 
+  # 15 minute cron to check if score_server is running - if not, get it
+ 
